@@ -1,6 +1,7 @@
 #!/usr/bin/make -f
 
 PYVERS=$(shell pyversions -sv)
+PY3VERS=$(shell py3versions -sv)
 
 %:
 	dh $@ --with python2,python3
@@ -26,5 +27,5 @@ test-python%:
 	python$* mimeparse_test.py
 
 ifeq (,$(findstring nocheck,$(DEB_BUILD_OPTIONS)))
-override_dh_auto_test: ${PYVERS:%=test-python%}
+override_dh_auto_test: ${PYVERS:%=test-python%} ${PY3VERS:%=test-python%}
 endif
