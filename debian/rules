@@ -3,7 +3,7 @@
 PYVERS=$(shell pyversions -sv)
 
 %:
-	dh $@ --with python2
+	dh $@ --with python2,python3
 
 get-orig-source:
 	uscan --noconf --force-download --download-current-version --destdir=${CURDIR}
