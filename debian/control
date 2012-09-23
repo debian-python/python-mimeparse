@@ -18,3 +18,12 @@ Description: Parse mime-types and quality parameters
  See section 14.1 of RFC 2616 (the HTTP specification)
  for a complete explanation.
 
+Package: python3-mimeparse
+Architecture: all
+Depends: ${misc:Depends}, ${python:Depends}
+Description: Parse mime-types and quality parameters
+ This module provides basic functions for parsing mime-type names and
+ matching them against a list of media-ranges.
+ .
+ See section 14.1 of RFC 2616 (the HTTP specification)
+ for a complete explanation.
