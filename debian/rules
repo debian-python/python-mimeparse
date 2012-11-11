@@ -1,7 +1,7 @@
 #!/usr/bin/make -f
 
-PYVERS=$(shell pyversions -sv)
-PY3VERS=$(shell py3versions -sv)
+PYVERS=$(shell pyversions -rv)
+PY3VERS=$(shell py3versions -rv)
 
 %:
 	dh $@ --with python2,python3
