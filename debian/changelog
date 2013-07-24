@@ -5,6 +5,7 @@ python-mimeparse (0.1.4-1) unstable; urgency=low
   * Updated wrong VCS fields (Closes: #717546).
   * Updated Homepage: in debian/control and Source: field in debian/copyright.
   * Standards-Version: is now 3.9.4 (no change).
+  * Add python-setuptools and python3-setuptools as build dependency.
 
  -- Mathias Ertl <mati@restauth.net>  Sun, 23 Sep 2012 20:41:21 +0200
 
