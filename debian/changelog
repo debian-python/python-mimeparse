@@ -1,8 +1,14 @@
-python-mimeparse (0.1.4-3) unstable; urgency=low
+python-mimeparse (0.1.4-3) unstable; urgency=medium
 
+  [ Mathias Ertl ]
   * Update VCS-* URLs (Closes: #844408).
 
- -- Mathias Ertl <mati@restauth.net>  Fri, 25 Nov 2016 13:43:46 +0100
+  [ Free Ekanayaka ]
+  * Add travis.debian.net configuration
+  * Dump debian/compat to 9
+  * Bump Standards-Version to 3.9.8
+
+ -- Free Ekanayaka <freee@debian.org>  Mon, 26 Dec 2016 19:13:35 +0000
 
 python-mimeparse (0.1.4-2) unstable; urgency=low
 
